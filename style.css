@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@100&display=swap");
+body {
+  background-color: #f00;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Press Start 2P", cursive;
+  min-height: 100vh;
+  margin: 0;
+  color: #fff;
+}
+body h1 {
+  font-size: 45px;
+  color: #3aff40;
+}
+body canvas {
+  background: rgba(62, 62, 62, 0.6);
+}
+body .btn {
+  background: rgba(62, 62, 62, 0.6);
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "Press Start 2P", cursive;
+  cursor: pointer;
+  margin: 10px;
+}
+body .btn:hover {
+  background: #ff3e3e;
+}
+body .btn:active {
+  background: #119600;
+}
+body .rules-btn {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+body .rules {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(62, 62, 62, 0.6);
+  color: #fff;
+  min-height: 100vh;
+  width: 400px;
+  padding: 20px;
+  line-height: 1.5;
+  transform: translateX(-400px);
+  transition: transform 1s ease-in-out;
+}
+body .rules.show {
+  transform: translateX(0);
+}/*# sourceMappingURL=style.css.map */
